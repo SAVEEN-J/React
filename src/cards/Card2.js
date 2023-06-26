@@ -14,39 +14,16 @@ const Card2 = () => {
           </h6>
           <hr />
           <ul class="fa-ul">
-            <li class="d-flex align-items-center gap-2">
-       
-              <strong>5 Users</strong>
-            </li>
-            <li class="d-flex align-items-center gap-2">
-            
-              50GB Storage
-            </li>
-            <li class="d-flex align-items-center gap-2">
-            
-              Unlimited Public Projects
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Community Access
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Unlimited Private Projects
-            </li>
-            <li class="d-flex align-items-center gap-2">
-            
-              Dedicated Phone Support
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Free Subdomain
-            </li>
-            <li class="d-flex align-items-center gap-2 text-muted">
-             
-              Monthly Status Reports
-            </li>
-          </ul>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>
+            </ul>
           <div class="d-grid">
             <button class="btn d-block btn-primary text-uppercase">
               Button
