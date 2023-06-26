@@ -12,40 +12,18 @@ const Card3 = () => {
             $49<span class="period">/month</span>
           </h6>
           <hr />
-          <ul>
-            <li class="d-flex align-items-center gap-2">
-            
-              <strong>Unlimited Users</strong>
-            </li>
-            <li class="d-flex align-items-center gap-2">
-             
-              150GB Storage
-            </li>
-            <li class="d-flex align-items-center gap-2">
-            
-              Unlimited Public Projects
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Community Access
-            </li>
-            <li class="d-flex align-items-center gap-2">
-            
-              Unlimited Private Projects
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Dedicated Phone Support
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              <strong>Unlimited</strong> Subdomains
-            </li>
-            <li class="d-flex align-items-center gap-2">
-            
-              Monthly Status Reports
-            </li>
-          </ul>
+          <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free
+                Subdomains</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+            </ul>
           <div class="d-grid">
             <button class="btn  d-block btn-primary text-uppercase">
               Button

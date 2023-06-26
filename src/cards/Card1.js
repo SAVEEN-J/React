@@ -14,39 +14,19 @@ const Card1 = () => {
           </h6>
           <hr />
           <ul class="fa-ul">
-            <li class="d-flex align-items-center gap-2">
-            
-              Single User
-            </li>
-            <li class="d-flex align-items-center gap-2">
-             
-              5GB Storage
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Unlimited Public Projects
-            </li>
-            <li class="d-flex align-items-center gap-2">
-           
-              Community Access
-            </li>
-            <li class="d-flex align-items-center gap-2 text-muted">
-           
-              Unlimited Private Projects
-            </li>
-            <li class="d-flex align-items-center gap-2 text-muted">
-           
-              Dedicated Phone Support
-            </li>
-            <li class="d-flex align-items-center gap-2 text-muted">
-            
-              Free Subdomain
-            </li>
-            <li class="d-flex align-items-center gap-2 text-muted">
-            
-              Monthly Status Reports
-            </li>
-          </ul>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+                Private Projects</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
+                Phone Support</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
+              </li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>
+            </ul>
           <div class="d-grid">
             <button class="btn d-block btn-primary text-uppercase">
               Button
